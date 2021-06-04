@@ -26,17 +26,21 @@
             </div>
             <div class="col-lg-6 px-lg-5">
                 <div class="card" style="border-radius: 10px">
-                    <div class="card-body">
-                        <p>Contact Us</p>
-                        <input class="form-control form-control-md" type="text" placeholder="Name">
-                        <input class="form-control form-control-md mt-lg-4" type="tel" placeholder="Phone Number">
-                        <input class="form-control form-control-md mt-lg-4" type="email" placeholder="Email">
-                        <textarea class="form-control mt-lg-4" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Message"></textarea>
-                        <div class="col text-right px-0 py-3">
-                            <button type="button" class="btn px-5" style="background: #2CA58D; color: #ffffff">Send</button>
+                    <form method="POST" action="/send-email">
+                        @csrf
+                        <div class="card-body">
+                            <p>Contact Us</p>
+                            <input class="form-control form-control-md" type="text" placeholder="Name" name="name" required>
+                            <input class="form-control form-control-md mt-lg-4" type="tel" placeholder="Phone Number" name="phone" required>
+                            <input class="form-control form-control-md mt-lg-4" type="email" placeholder="Email" name="email" required>
+                            <textarea name="message" class="form-control mt-lg-4" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Message" required></textarea>
+                            <div class="col text-right px-0 py-3">
+                                <button type="submit" class="btn px-5" style="background: #2CA58D; color: #ffffff">Send</button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
+                
                 </div>
             </div>
         </div>
