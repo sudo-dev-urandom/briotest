@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,3 +36,5 @@ Route::get('/ourteam', function () {
 Route::get('/service', function () {
     return view('pages/service');
 });
+
+Route::post('/send-email', [MailController::class, 'sendEmail']);
