@@ -9,41 +9,33 @@
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="col-lg-12">
-            <div class="row justify-content-end">
-                <div class="col-lg-auto">
+            <div class="row justify-content-end navbar-nav">
+                <li class="col-lg-auto {{ Request::is('about') ? 'active' : '' }}">
                     <a href="<?php echo url('about'); ?>" class="navbar-text-style">
                         About Us
                     </a>
-                </div>
-                <div class="col-lg-auto">
+                </li>
+                <li class="col-lg-auto {{ Request::is('service') ? 'active' : '' }}">
                     <a href="<?php echo url('service'); ?>" class="navbar-text-style">
                         Service
                     </a>
-                </div>
-                <div class="col-lg-auto">
+                </li>
+                <li class="col-lg-auto {{ Request::is('location') ? 'active' : '' }}">
                     <a href="<?php echo url('location'); ?>" class="navbar-text-style">
                         Location
                     </a>
-                </div>
-                <div class="col-lg-auto">
+                </li>
+                <li class="col-lg-auto {{ Request::is('ourteam') ? 'active' : '' }}">
                     <a href="<?php echo url('ourteam'); ?>" class="navbar-text-style">
                         Our Team
                     </a>
-                </div>
-                <div class="col-lg-auto">
+                </li>
+                <li class="col-lg-auto {{ Request::is('contact') ? 'active' : '' }}">
                     <a href="<?php echo url('contact'); ?>" class="navbar-text-style">
                         Contact
                     </a>
-                </div>
-
+                </li>
             </div>
         </div>
-        {{-- <ul>
-            <li class="item"><a href="#">link 1</a></li>
-            <li class="item"><a href="#">link 2</a></li>
-            <li class="item"><a href="#">link 3</a></li>
-            <li class="item"><a href="#">link 4</a></li>
-            <li class="item"><a href="#">link 5</a></li>
-        </ul> --}}
     </div>
 </nav>

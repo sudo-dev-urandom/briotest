@@ -4,7 +4,7 @@
 
     <div class="container-fluid" style="padding-top: 150px; background: #F7F8F9;">
         <div class="row pb-lg-5 mb-lg-5 justify-content-center">
-            <div class="col-lg-6 pb-lg-2 mb-lg-2 text-center services-text-title">Our Services</div>
+            <div class="col-lg-6 pb-lg-2 mb-lg-2 text-center services-text-title">Our Team</div>
         </div>
         <div class="row pb-lg-5 mb-lg-5 justify-content-center">
             <div class="col-lg-5">
