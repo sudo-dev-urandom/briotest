@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom py-3 px-3">
     <a href="<?php echo url('/'); ?>">
-        <img src="{{ asset('assets/img/logo.png') }}" width="40" height="40" alt="image">
+        <img src="{{ asset('assets/img/logohorizontal.png') }}" width="110" height="40" alt="image">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

@@ -6,31 +6,31 @@
             <div class="col-lg-6 pb-lg-2 mb-lg-2 text-center services-text-title">Our Services</div>
         </div>
         <div class="row mx-lg-5 pt-lg-5 mt-lg-5 justify-content-center align-items-center">
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-3 m-res text-center">
                 <div class="card services-card-bg">
-                    <div class="card-body m-lg-5">
-                        <div class="mt-lg-5">
-                            <img src="{{ asset('assets/img/vector1.png') }}" width="114" height="147" alt="">
+                    <div class="card-body">
+                        <div class="mt-lg-3">
+                            <img src="{{ asset('assets/img/vector1.png') }}" height="100" alt="">
                             <p class="pt-lg-3 pb-lg-0 services-text-card">Lab Service</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-3 m-res text-center">
                 <div class="card services-card-bg">
-                    <div class="card-body my-lg-5 mx-lg-2">
-                        <div class="mt-lg-5">
-                            <img src="{{ asset('assets/img/vector2.png') }}" width="136" height="136" alt="">
+                    <div class="card-body">
+                        <div class="mt-lg-3">
+                            <img src="{{ asset('assets/img/vector2.png') }}" height="100" alt="">
                             <p class="pt-lg-3 services-text-card">Home Service</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-3 m-res text-center">
                 <div class="card services-card-bg">
-                    <div class="card-body my-lg-5 mx-lg-2">
-                        <div class="mt-lg-4">
-                            <img src="{{ asset('assets/img/vector3.png') }}" width="164" height="164" alt="">
+                    <div class="card-body">
+                        <div class="mt-lg-3">
+                            <img src="{{ asset('assets/img/vector3.png') }}" height="100" alt="">
                             <p class="pt-lg-3 services-text-card">Corporate Service</p>
                         </div>
                     </div>
@@ -39,16 +39,16 @@
         </div>
         <div class="row bg-home justify-content-center" style="margin-top: 150px">
             <div id="carouselExampleControls" class="carousel slide w-100" data-interval="false" data-ride="carousel">
-                <div class="container">
+                <div class="container p-3">
                     <div class="row py-lg-4 my-lg-5">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-6 col-sm-6">
+                                <div class="row m-3 justify-content-center">
+                                    <div class="col-lg-5 col-sm-3">
                                         <div class="card service-card-height">
                                             <div class="card-body p-0">
                                                 <div class="container">
-                                                    <div class="row py-lg-5 my-lg-5">
+                                                    <div class="row py-lg-3 my-lg-5">
                                                         <div class="col-lg-12">
                                                             <p class="m-0 text-center service-card-text1">
                                                                 Rapid Swab Antigen
@@ -64,11 +64,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-sm-6">
+                                    <div class="col-lg-5 col-sm-3">
                                         <div class="card service-card-height">
                                             <div class="card-body p-0">
                                                 <div class="container">
-                                                    <div class="row py-lg-5 my-lg-5">
+                                                    <div class="row py-lg-3 my-lg-5">
                                                         <div class="col-lg-12">
                                                             <p class="m-0 text-center service-card-text1">
                                                                 Test Antibodi Netralisasi Covid-19
@@ -87,12 +87,12 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-6 col-sm-6">
+                                <div class="row m-3 justify-content-center">
+                                    <div class="col-lg-5 col-sm-3">
                                         <div class="card service-card-height">
                                             <div class="card-body p-0">
                                                 <div class="container">
-                                                    <div class="row py-lg-5 my-lg-5">
+                                                    <div class="row py-lg-3 my-lg-5">
                                                         <div class="col-lg-12">
                                                             <p class="m-0 text-center service-card-text1">
                                                                 Day + 1 PCR Test
@@ -108,11 +108,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-sm-6">
+                                    <div class="col-lg-5 col-sm-3">
                                         <div class="card service-card-height">
                                             <div class="card-body p-0">
                                                 <div class="container">
-                                                    <div class="row py-lg-5 my-lg-5">
+                                                    <div class="row py-lg-3 my-lg-5">
                                                         <div class="col-lg-12">
                                                             <p class="m-0 text-center service-card-text1">
                                                                 12 Hours PCR Test
@@ -131,12 +131,12 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-6 col-sm-6">
+                                <div class="row m-3 justify-content-center">
+                                    <div class="col-lg-5 col-sm-3">
                                         <div class="card service-card-height">
                                             <div class="card-body p-0">
                                                 <div class="container">
-                                                    <div class="row py-lg-5 my-lg-5">
+                                                    <div class="row py-lg-3 my-lg-5">
                                                         <div class="col-lg-12">
                                                             <p class="m-0 text-center service-card-text1">
                                                                 6 Hours PCR Test
@@ -152,6 +152,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>

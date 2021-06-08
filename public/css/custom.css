@@ -1,5 +1,5 @@
 .navbar-custom {
-    background: linear-gradient(90.71deg, rgba(0, 124, 186, 0.5) 0%, #2CA58D 100%);
+    background: linear-gradient(90.71deg, rgba(0, 124, 186, 0.5) 0%, rgba(46, 227, 186, 0.5) 100%);
 }
 
 .navbar-text-style {
@@ -24,6 +24,7 @@ a:hover {
     position: absolute;
     width: 100%;
     background: #FFFFFF;
+    padding: 20px;
 }
 
 .footer-text-style1 {
@@ -31,7 +32,7 @@ a:hover {
     font-style: normal;
     font-weight: bold;
     font-size: 23px;
-    line-height: 59px;
+    line-height: 30px;
 
     color: #000000;
 }
@@ -41,7 +42,7 @@ a:hover {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 44px;
+    line-height: 30px;
 
     color: #000000;
 }
@@ -52,25 +53,150 @@ video {
   }
 
 .bg-home {
-    background: #2CA58D;
-    height: 400px;
+    background: #2EE3BA;
+}
+
+.bg-home1 {
+  background: #2EE3BA;
+  border-radius: 0 0 10px 10px;
 }
 
 .bg-about {
-    background: #2CA58D;
+    background: #F7F8F9;
     height: 100%;
 }
+
+@media screen and (min-width: 576px) {
+    .bg-home {
+      padding-top: 10px;
+      height: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .bg-home {
+        height: 300px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .bg-home {
+        height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .image-home {
+        width: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .image-home {
+        width: 150px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .image-home {
+        width: 238px;
+        height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .imagehome-responsive {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .imagehome-responsive {
+        width: 100%;
+        height: 400px;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    .img-benefit-size {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .img-benefit-size {
+        height: 300px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .size-card-service {
+        height: 120px;
+        width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    .size-card-service {
+      height: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .size-card-service {
+        height: 200px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .img-benefit-size {
+        height: 366px;
+        width: 100%;
+        object-fit: fill;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    .img-benefit-size {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .img-benefit-size {
+        height: 300px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .img-benefit-size {
+        height: 366px;
+        width: 100%;
+        object-fit: cover;
+    }
+  }
 
 .home-text-intro {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
     line-height: 44px;
     text-align: center;
 
     color: #FFFFFF;
 }
+
+@media screen and (min-width: 576px) {
+    .home-text-intro {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-text-intro {
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .home-text-intro {
+      font-size: 30px;
+    }
+  }
 
 .home-text-title {
     font-family: Montserrat;
@@ -87,7 +213,6 @@ video {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
     line-height: 59px;
     
     color: #000000;
@@ -97,10 +222,21 @@ video {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
     line-height: 44px;
 
     color: #000000;
+}
+
+@media screen and (min-width: 576px) {
+  .contact-text-title1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact-text-title1 {
+    font-size: 24px;
+  }
 }
 
 .form-control {
@@ -108,19 +244,18 @@ video {
 }
 
 .row-bg {
-    background-image: url("/assets/img/imagebg.png");
+    background-image: url("/assets/img/bg-about.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 820px;
 }
 
 .about-text-title1 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 44px;
+    line-height: 25px;
 
     color: #000000;
 }
@@ -129,21 +264,64 @@ video {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 37px;
+    line-height: 25px;
 
     color: #8a8a8a;
 }
+
+@media screen and (min-width: 576px) {
+    .about-text-title1 {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-text-title1 {
+      font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .about-text-title1 {
+      font-size: 25px;
+    }
+  }
+
+@media screen and (min-width: 576px) {
+    .about-text-title2 {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-text-title2 {
+      font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .about-text-title2 {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .card-size-about {
+        width: 949px;
+        height: 470px; 
+        margin: auto;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+    }
+  }
 
 .about-text-why {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 44px;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .about-text-card {
@@ -168,13 +346,13 @@ video {
 }
 
 .services-card-bg {
-    background: #2CA58D;
+    background: #2EE3BA;
     border-radius: 10px;
 }
 
 @media (min-width: 992px) {
     .services-card-bg {
-        height: 28rem;
+        height: 250px;
     }
 }
 
@@ -190,15 +368,30 @@ video {
 }
 
 .service-card-height {
-    height: 258px;
     border-radius: 10px;
+}
+@media screen and (max-width: 576px) {
+  .service-card-height {
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .service-card-height  {
+    height: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .service-card-height  {
+    height: 200px;
+  }
 }
 
 .service-card-text1 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
     line-height: 29px;
     text-align: center;
 
@@ -209,11 +402,27 @@ video {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
     line-height: 59px;
     text-align: center;
 
     color: #000000;
+}
+
+@media screen and (min-width: 576px) {
+  .service-card-text1 .service-card-text2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .service-card-text1 .service-card-text2  {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .service-card-text1 .service-card-text2  {
+    font-size: 18px;
+  }
 }
 
 .ourteam-card-size {
@@ -231,7 +440,6 @@ video {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
     line-height: 44px;
 
     color: #FFFFFF;
@@ -241,31 +449,29 @@ video {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
     line-height: 29px;
 
     color: #FFFFFF;
 }
 
-.ourteam-card-text3 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-family: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
+@media screen and (min-width: 576px) {
+  .ourteam-card-text1 {
+    font-size: 14px;
+  }
 }
 
-.ourteam-card-text4 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
+@media screen and (min-width: 768px) {
+  .ourteam-card-text1 {
     font-size: 18px;
-    line-height: 22px;
-
-    color: #FFFFFF;
+  }
 }
+@media screen and (min-width: 992px) {
+  .ourteam-card-text1 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}
+
 
 .navbar-nav > li {
     float: left;
@@ -281,4 +487,135 @@ video {
         position: absolute;
         right: 0;
       }
+  }
+
+  @media screen and (max-width: 576px) {
+    .image-footer {
+        width: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .image-footer {
+        width: 170px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .image-footer {
+        width: 382px;
+        height: 130px;
+        margin-left: 70px;
+    }
+  }
+  .vertical-line {
+    width: 2px; /* Line width */
+    background-color: #C4C4C4;; /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+    float: left;
+    min-height: 130px;
+  }
+
+  .container-lab {
+    padding-top: 80px; 
+    background: #F7F8F9; 
+    padding-bottom: 103px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 10px;
+    transition: .5s ease;
+    background: #2EE3BA;
+  }
+  
+  .container-home:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .title-benefit1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 29px;
+    text-align: justify;
+    
+    color: #000000;
+    
+  }
+
+  .title-benefit2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: justify;
+    
+    color: #686262;
+  }
+
+  @media screen and (min-width: 576px) {
+    .title-benefit1 {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title-benefit1 {
+      font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .title-benefit1 {
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    .title-benefit2 {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title-benefit2 {
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .title-benefit2 {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .m-res {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .card-size {
+      height: 536px;
+    }
   }
